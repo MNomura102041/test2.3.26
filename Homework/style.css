@@ -54,22 +54,23 @@
   background-position: center;
   background-size: 80%;
   width: 50%;
+  padding-left: 4rem;
+  padding-top: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .page-2nd .item1 .tagname {
   color: #FFFFFF;
-  padding-left: 4rem;
-  padding-top: 4rem;
   font: Roboto;
 }
 
 .page-2nd .item1 .coments1 {
   font: M1m;
   background-color: rgba(255, 255, 255, 0.4);
-  width: 70%;
+  width: 85%;
   height: 100px;
-  margin-top: 240px;
-  margin-left: 65px;
+  margin-top: 270px;
 }
 
 .page-2nd .item1 .coments1 p {
@@ -80,10 +81,9 @@
 .page-2nd .item1 .coments2 {
   font: M1m;
   background-color: rgba(255, 255, 255, 0.4);
-  width: 70%;
-  margin-top: 5px;
-  margin-left: 65px;
+  width: 85%;
   height: 100px;
+  margin-top: 10px;
 }
 
 .page-2nd .item1 .coments2 p {
@@ -94,24 +94,25 @@
 .page-2nd .item2 {
   background-image: url(./images/image3.png);
   background-position: center;
-  background-size: 74%;
+  background-size: 80%;
   width: 50%;
+  padding-left: 4.5rem;
+  padding-top: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .page-2nd .item2 .tagname {
   color: #FFFFFF;
-  padding-left: 4.5rem;
-  padding-top: 4rem;
   font: Roboto;
 }
 
 .page-2nd .item2 .coments1 {
   font: M1m;
   background-color: rgba(255, 255, 255, 0.4);
-  width: 67%;
-  margin-top: 240px;
-  margin-left: 65px;
+  width: 85%;
   height: 100px;
+  margin-top: 270px;
 }
 
 .page-2nd .item2 .coments1 p {
@@ -122,10 +123,9 @@
 .page-2nd .item2 .coments2 {
   font: M1m;
   background-color: rgba(255, 255, 255, 0.4);
-  width: 67%;
-  margin-top: 5px;
-  margin-left: 65px;
+  width: 85%;
   height: 100px;
+  margin-top: 10px;
 }
 
 .page-2nd .item2 .coments2 p {
@@ -228,12 +228,16 @@ main aside .sub-menu h3 {
 
 /*Object/Component*/
 #form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: relative;
   max-width: 300px;
   margin-top: 1rem;
 }
 
 #form #sbox {
+  height: 1.7rem;
   border-radius: 5px;
   border-style: solid;
   border-color: #707070;
@@ -246,6 +250,7 @@ main aside .sub-menu h3 {
 }
 
 #form #sbtn {
+  margin-left: 0.5rem;
   background: none;
   color: #707070;
   height: 1.7rem;

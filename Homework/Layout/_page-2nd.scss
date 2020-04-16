@@ -8,19 +8,21 @@
         background-position: center;
         background-size: 80%;
         width: 50%;
+        padding-left: 4rem;
+        padding-top: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        
         .tagname{
             color: #FFFFFF;
-            padding-left: 4rem;
-            padding-top: 4rem;
             font: Roboto; 
         }
         .coments1{
             font: M+ 1m;
             background-color: rgba($color: #FFFFFF, $alpha: 0.4);
-            width: 70%;
+            width: 85%;
             height: 100px;
-            margin-top: 240px;
-            margin-left: 65px;
+            margin-top: 270px;
             p{
                 margin-top: 15px;
                 font-size: 60%;
@@ -30,10 +32,9 @@
         .coments2{
             font: M+ 1m;
             background-color: rgba($color: #FFFFFF, $alpha: 0.4);
-            width: 70%;
-            margin-top: 5px;
-            margin-left: 65px;
+            width: 85%;
             height: 100px;
+            margin-top: 10px;
             p{
                 margin-top: 15px;
                 font-size: 60%;
@@ -44,22 +45,24 @@
     .item2{
         background-image: url(./images/image3.png);
         background-position: center;
-        background-size: 74%;
+        background-size: 80%;
         width: 50%;
+        padding-left: 4.5rem;
+        padding-top: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         .tagname{
             color: #FFFFFF;
-            padding-left: 4.5rem;
-            padding-top: 4rem;
+            
             font: Roboto;
             
         }
         .coments1{
             font: M+ 1m;
             background-color: rgba($color: #FFFFFF, $alpha: 0.4);
-            width: 67%;
-            margin-top: 240px;
-            margin-left: 65px;
+            width: 85%;
             height: 100px;
+            margin-top: 270px;
             p{
                 margin-top: 15px;
                 font-size: 60%;
@@ -68,10 +71,9 @@
         .coments2{
             font: M+ 1m;
             background-color: rgba($color: #FFFFFF, $alpha: 0.4);
-            width: 67%;
-            margin-top: 5px;
-            margin-left: 65px;
+            width: 85%;
             height: 100px;
+            margin-top: 10px;
             p{
                 margin-top: 15px;
                 font-size: 60%;

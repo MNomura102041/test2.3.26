@@ -1,8 +1,10 @@
 #form{
+    display: flex;
     position: relative;
     max-width: 300px;
     margin-top: 1rem;
     #sbox{
+        height: 1.7rem;
         border-radius:5px;
         border-style: solid;
         border-color: #707070;
@@ -14,6 +16,7 @@
         background-color: #fff;
     }
     #sbtn{
+        margin-left: 0.5rem;
         background:none;
         color:#707070;
         height: 1.7rem;
