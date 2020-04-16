@@ -1,0 +1,23 @@
+main{
+    display: flex;
+    article{
+        width: 75%;
+    }
+    aside{
+        background-color: #F2EDE9;
+        width: 307px;
+        padding-left: 2rem;
+        color: #707070;
+        .menu-title{
+            margin-top: 3rem;
+
+        }
+        .sub-menu{
+            list-style-type: none;
+            line-height: 3rem;
+            h3{
+                margin-top: 2rem;
+            }
+        }
+    }
+}

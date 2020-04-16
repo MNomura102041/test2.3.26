@@ -1,0 +1,256 @@
+/*Foundation*/
+/*Layout*/
+.page-header {
+  background-color: #FFF7EF;
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page-header h1 {
+  color: #707070;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.page-header #form {
+  margin-top: 2rem;
+}
+
+.page-header #form #stbn {
+  margin-top: 1px;
+}
+
+.page-top {
+  background-image: url(./images/image1.png);
+  background-position: left;
+  background-size: 80%;
+  width: 150%;
+  height: 270px;
+}
+
+.page-top h3 {
+  color: #FFFFFF;
+  padding-top: 120px;
+  padding-left: 15px;
+}
+
+.page-2nd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 700px;
+  background-color: #FFFDFA;
+}
+
+.page-2nd .item1 {
+  background-image: url(./images/image2.png);
+  background-position: center;
+  background-size: 80%;
+  width: 50%;
+}
+
+.page-2nd .item1 .tagname {
+  color: #FFFFFF;
+  padding-left: 4rem;
+  padding-top: 4rem;
+  font: Roboto;
+}
+
+.page-2nd .item1 .coments1 {
+  font: M1m;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 70%;
+  height: 100px;
+  margin-top: 240px;
+  margin-left: 65px;
+}
+
+.page-2nd .item1 .coments1 p {
+  margin-top: 15px;
+  font-size: 60%;
+}
+
+.page-2nd .item1 .coments2 {
+  font: M1m;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 70%;
+  margin-top: 5px;
+  margin-left: 65px;
+  height: 100px;
+}
+
+.page-2nd .item1 .coments2 p {
+  margin-top: 15px;
+  font-size: 60%;
+}
+
+.page-2nd .item2 {
+  background-image: url(./images/image3.png);
+  background-position: center;
+  background-size: 74%;
+  width: 50%;
+}
+
+.page-2nd .item2 .tagname {
+  color: #FFFFFF;
+  padding-left: 4.5rem;
+  padding-top: 4rem;
+  font: Roboto;
+}
+
+.page-2nd .item2 .coments1 {
+  font: M1m;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 67%;
+  margin-top: 240px;
+  margin-left: 65px;
+  height: 100px;
+}
+
+.page-2nd .item2 .coments1 p {
+  margin-top: 15px;
+  font-size: 60%;
+}
+
+.page-2nd .item2 .coments2 {
+  font: M1m;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 67%;
+  margin-top: 5px;
+  margin-left: 65px;
+  height: 100px;
+}
+
+.page-2nd .item2 .coments2 p {
+  margin-top: 15px;
+  font-size: 60%;
+}
+
+.page-map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 450px;
+  background-image: url(./images/image4.png);
+  background-position: center;
+  background-image: 10%;
+  margin-bottom: 0;
+}
+
+.page-map .map-text {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 60%;
+  color: #FFFFFF;
+  font: M1m;
+}
+
+.page-map .map-text h2 {
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+
+.page-map .map-text p {
+  margin-top: 2.5rem;
+  margin-left: 2rem;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(./images/image5.png);
+  bottom: 0;
+  width: 100%;
+  height: 6%;
+}
+
+footer tr {
+  font: M1m;
+  list-style-type: none;
+}
+
+footer tr .shopinfo {
+  font-size: 0.8rem;
+}
+
+footer tr {
+  font: M1m;
+  list-style-type: none;
+}
+
+footer tr .copyright {
+  font-size: 0.6rem;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main article {
+  width: 75%;
+}
+
+main aside {
+  background-color: #F2EDE9;
+  width: 307px;
+  padding-left: 2rem;
+  color: #707070;
+}
+
+main aside .menu-title {
+  margin-top: 3rem;
+}
+
+main aside .sub-menu {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+main aside .sub-menu h3 {
+  margin-top: 2rem;
+}
+
+/*Object/Component*/
+#form {
+  position: relative;
+  max-width: 300px;
+  margin-top: 1rem;
+}
+
+#form #sbox {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #707070;
+  background-image: url(./images/Lupe.png);
+  background-size: auto 60%;
+  background-position: 8px center;
+  outline: 0;
+  border-width: thin;
+  background-color: #fff;
+}
+
+#form #sbtn {
+  background: none;
+  color: #707070;
+  height: 1.7rem;
+}
+
+/*Object/Project*/
+/*Object/Utility*/
+/*# sourceMappingURL=style.css.map */

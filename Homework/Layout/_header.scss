@@ -1,0 +1,18 @@
+.page-header{
+    background-color:  #FFF7EF;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    h1{
+        color: #707070;
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    #form{
+        margin-top: 2rem;
+        #stbn{
+            margin-top: 1px;
+        }
+    }
+}

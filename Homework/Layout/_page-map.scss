@@ -1,0 +1,23 @@
+.page-map{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-image: url(./images/image4.png);
+    background-position: center;
+    background-image: 10%;
+    margin-bottom: 0;
+    .map-text{
+        background-color: rgba($color: #000000, $alpha: 0.2);
+        width: 60%;
+        color: #FFFFFF;
+        font: M+ 1m;
+        h2{
+           margin-top: 3rem; 
+           margin-left: 2rem;
+        }
+        p{
+            margin-top: 2.5rem;
+            margin-left: 2rem;
+        }
+    }
+}

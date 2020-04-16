@@ -1,0 +1,21 @@
+#form{
+    position: relative;
+    max-width: 300px;
+    margin-top: 1rem;
+    #sbox{
+        border-radius:5px;
+        border-style: solid;
+        border-color: #707070;
+        background-image: url(./images/Lupe.png);
+        background-size: auto 60%;
+        background-position: 8px center;
+        outline:0;
+        border-width: thin;
+        background-color: #fff;
+    }
+    #sbtn{
+        background:none;
+        color:#707070;
+        height: 1.7rem;
+        }
+}
