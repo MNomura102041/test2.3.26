@@ -1,0 +1,34 @@
+main{
+    @include pc{
+    display: flex;
+    }
+    article{
+        @include pc {
+            width: 75%;
+        }
+        @include tab{
+            width: 100%;
+        }
+        @include sp {
+            width: 100%;
+        }
+    }
+    aside{
+        background-color: #F2EDE9;
+        width: 307px;
+        padding-left: 2rem;
+        color: #707070;
+        .menu-title{
+            margin-top: 3rem;
+
+        }
+        h3{
+            margin-top: 2rem;
+        }
+        .sub-menu{
+            list-style-type: none;
+            line-height: 3rem;
+            
+        }
+    }
+}

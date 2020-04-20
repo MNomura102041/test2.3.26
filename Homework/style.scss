@@ -3,22 +3,14 @@
 /*Layout*/
 @import"./Layout/header";
 @import"./Layout/page-top";
-@import"./Layout/page-2nd";
-@import"./Layout/page-map";
 @import"./Layout/footer";
 @import"./Layout/main";
+@import"./Layout/sidebar";
 @import"./Layout/wrapper";
-@import"./Layout/p2-page-top";
-@import"./Layout/p2-2nd-top";
-@import"./Layout/p2-grid";
-@import"./Layout/p3-page-top";
-@import"./Layout/p3-article";
-@import"./Layout/p4-page-top";
 /*Object/Component*/
 @import"./Object/Component/sbox";
-@import"./Object/Component/p2-button";
-@import"./Object/Component/p2-page";
-@import"./Object/Component/p3-button";
+@import"./Object/Component/button";
+@import"./Object/Component/page";
 /*Object/Project*/
 
 /*Object/Utility*/
