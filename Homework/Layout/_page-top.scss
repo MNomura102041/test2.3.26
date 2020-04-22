@@ -21,14 +21,14 @@
     .p2-top-label{
         background-color: rgba($color: #000000, $alpha: 0.5);
         height: 150px;
-        @include pc{
+        @include breakpoint (pc) {
             width: 66.7%;
         }
-        @include tab {
+        @include breakpoint (tablet) {
             width: 100%;
         }
-        @include sp{
-            width: 66.7%;
+        @include breakpoint (sph) {
+            width: 100%;
         }
         display: flex;
         justify-content: flex-start;

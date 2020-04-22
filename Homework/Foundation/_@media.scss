@@ -1,19 +1,18 @@
-$pc: 1024px; // PC
-$tab: 680px; // タブレット
-$sp: 400px;  // スマホ
-
-@mixin pc {
-  @media (min-width: ($pc)) {
-    @content;
-  }
-}
-@mixin tab {
-  @media (min-width: ($tab)) {
-    @content;
-  }
-}
-@mixin sp {
-  @media (min-width: ($sp)) {
-    @content;
-  }
+// mixin の定義
+@mixin breakpoint ($point) {
+	@if $point == pc {
+		@media ( min-width: 1024px ) {
+			@content ;
+		}
+	}
+	@if $point == tablet {
+		@media ( min-width: 780px ) {
+			@content ;
+		}
+	}
+	@if $point == sph {
+		@media ( min-width: 480px ) {
+			@content ;
+		}
+	}
 }

@@ -16,6 +16,7 @@
                 <form id="form" action="#">
                     <input id="sbox" type="text" placeholder="     チーズバーガー">
                     <input id="sbtn" type="image" src="images/sbtnt.png" value="検索">
+                    <span class="open_nav">MENU</span>
                 </form>
             </header>
             <div class="p2-page-top">
@@ -146,5 +147,15 @@
             </tr>
         </table>
     </footer>
+<script src="./js/jquery-3.4.1.min.js"></script>  
+<script>
+    'use strict';
+    $(document).ready(function() {
+        $('.open_nav').on('click', function() {
+            $('.wrapper, .aside').toggleClass('show');
+        });
+    });
+    
+</script>
 </body>
 </html>

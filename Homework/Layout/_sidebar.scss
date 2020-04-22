@@ -1,15 +1,16 @@
 main{
-    @include pc{
-    display: flex;
+    @include breakpoint (pc) {
+        display: flex;
+    @include breakpoint (tablet){}
     }
     article{
-        @include pc {
+        @include breakpoint (pc) {
             width: 75%;
         }
-        @include tab{
+        @include breakpoint (tablet) {
             width: 100%;
         }
-        @include sp {
+        @include breakpoint (sph)  {
             width: 100%;
         }
     }
@@ -19,8 +20,15 @@ main{
         padding-left: 2rem;
         color: #707070;
         .menu-title{
-            margin-top: 3rem;
-
+            @include breakpoint (pc){
+                margin-top: 3rem;
+            }
+            @include breakpoint (tablet){
+                display: none;
+            }
+            @include breakpoint (sph){
+                display: none;
+            }
         }
         h3{
             margin-top: 2rem;
@@ -30,5 +38,29 @@ main{
             line-height: 3rem;
             
         }
+    }
+}
+
+.show {
+    transform: translate3d(-300px, 0, 0);
+}
+.wrapper, aside {
+    transition: transform 0.1s;
+}
+
+aside{
+    @include breakpoint (tablet){
+        position: fixed;
+        right: -300px;
+        top: 0;
+        width: 300px;
+        height: 100%;
+    }
+    @include breakpoint (sph){
+        position: fixed;
+        right: -300px;
+        top: 0;
+        width: 300px;
+        height: 100%;
     }
 }
