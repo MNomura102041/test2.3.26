@@ -16,7 +16,7 @@
     background-image: url(./images/image2-1.png);
     background-position: left; 
     background-size: 80%;
-    width: 150%;
+    width: 125%;
     height: 150px;
     .p2-top-label{
         background-color: rgba($color: #000000, $alpha: 0.5);
@@ -26,9 +26,11 @@
         }
         @include breakpoint (tablet) {
             width: 100%;
+            overflow-x: hidden;
         }
         @include breakpoint (sph) {
             width: 100%;
+            overflow-x: hidden;
         }
         display: flex;
         justify-content: flex-start;

@@ -93,7 +93,7 @@
   background-image: url(./images/image2-1.png);
   background-position: left;
   background-size: 80%;
-  width: 150%;
+  width: 125%;
   height: 150px;
 }
 
@@ -121,12 +121,14 @@
 @media (min-width: 780px) {
   .p2-page-top .p2-top-label {
     width: 100%;
+    overflow-x: hidden;
   }
 }
 
 @media (min-width: 480px) {
   .p2-page-top .p2-top-label {
     width: 100%;
+    overflow-x: hidden;
   }
 }
 
