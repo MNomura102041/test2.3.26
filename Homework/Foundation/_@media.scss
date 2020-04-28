@@ -1,0 +1,18 @@
+// mixin の定義
+@mixin breakpoint ($point) {
+	@if $point == pc {
+		@media ( min-width: 1024px ) {
+			@content ;
+		}
+	}
+	@if $point == tablet {
+		@media ( min-width: 780px ) {
+			@content ;
+		}
+	}
+	@if $point == sph {
+		@media ( min-width: 100px ) {
+			@content ;
+		}
+	}
+}

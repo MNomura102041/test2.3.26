@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta name="PC-front-page" content="課題サイト">
+    <title>PC-font-size</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="wrapper">
+        <article>
+            <header class="page-header">
+                <h1>Hamburger</h1>
+                <form id="form" action="#">
+                    <input id="sbox" type="text">
+                    <input id="sbtn" type="image" src="images/sbtnt.png" value="検索">
+                    <span class="open_nav">MENU</span>
+                </form>
+            </header>
+            <div class="page-top">
+                <h2>ダミーサイト</h2>
+            </div>
+            <div class="page-2nd">
+                <div class="item1">
+                    <h3 class="tagname">Take Out</h3>
+                    <div class="coments1">
+                        <h4>小見出しが入ります</h4>
+                        <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                    </div>
+                    <div class="coments2">
+                        <h4>小見出しが入ります</h4>
+                        <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                    </div>
+                </div>
+                <div class="item2">
+                    <h3 class="tagname">Eat In</h3>
+                    <div class="coments1">
+                        <h4>小見出しが入ります</h4>
+                        <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>                        
+                    </div>
+                    <div class="coments2">
+                        <h4>小見出しが入ります</h4>
+                        <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="page-map">
+                <div class="map-text">
+                    <h2>見出しが入ります</h2>
+                    <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                </div>
+            </div>
+        </article>
+
+        <aside>
+            <h2 class="menu-title">Menu</h2>
+            <h3>バーガー</h3>
+            <ul class="sub-menu">
+                <li>ハンバーガー</li>
+                <li>チーズバーガー</li>
+                <li>テリヤキバーガー</li>
+                <li>アボカドバーガー</li>
+                <li>フィッシュバーガー</li>
+                <li>ベーコンバーガー</li>
+                <li>チキンバーガー</li>
+            </ul>
+            <h3>サイド</h3>
+            <ul class="sub-menu">                <li>ポテト</li>
+                <li>サラダ</li>
+                <li>ナゲット</li>
+                <li>コーン</li>
+            </ul>
+            <h3>ドリンク</h3>
+            <ul class="sub-menu">
+                <li>コーラ</li>
+                <li>ファンタ</li>
+                <li>オレンジ</li>
+                <li>アップル</li>
+                <li>紅茶(Ice/Hot)</li>
+                <li>コーヒー(Ice/Hot)</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <table class="footer wrapper">
+            <tr>
+            <td class="shopinfo">ショップ情報｜ヒストリー</td>
+            </tr>
+            <tr>
+            <td class="copyright">Copyright:RaiseTech</td>
+            </tr>
+        </table>
+    </footer>
+
+<script src="./js/hamburger-menu.js"></script>
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script>
+    'use strict';
+
+    $(document).ready(function() {
+        $('.open_nav').on('click', function() {
+            $('.wrapper, .aside').toggleClass('show');
+        });
+    });
+
+</script>
+</body>
+</html>
